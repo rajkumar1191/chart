@@ -1,0 +1,36 @@
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
+
+  .submitBtn{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Card{
+    border: 0;
+    box-shadow: 1px 1px 14px #CCC;
+  }
+
+  .format{
+    background-color: #e08438 !important;
+    border-color: #b49479 !important
+  }
+
+  .Login form a {
+    margin-bottom: 15px;
+    margin-top:10px;
+    display: block;
+    font-size: 14px;
+  }
