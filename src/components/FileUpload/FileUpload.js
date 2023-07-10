@@ -148,13 +148,13 @@ export default function S3FileUpload() {
           <div id="chart" style={{ position: "relative" }}></div>
         </div>
       )}
-      {fileConverted1 && (
+      {/* {fileConverted1 && (
         <div className="shadow-lg p-3 mb-2 bg-white rounded px-2 mt-2">
           <div style={{ position: "relative" }}>
             <RadialStackedChart data={fileData} />
           </div>
         </div>
-      )}
+      )} */}
     </>
   );
 }
